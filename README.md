@@ -1,34 +1,77 @@
-# @gitlawb/openclaude
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-OpenClaude opens coding-agent workflows to any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models
+<h1 align="center">Project 👋</h1>
 
-## 📋 Overview
+<p align="center">
+  <strong></strong>
+</p>
 
-This repository contains **2652 files** and is built with the following technologies:
-
-Node.js, Docker
-
-## 🚀 Quick Start
-
-```bash
-npm install
-npm run dev
-npm run build
-```
-
-## ✨ Features
-
-- 🐳 Docker support
-- 🔧 Environment config included
-- 📝 Auto-generated documentation
-
-## 🛠️ Technologies
-
-Node.js, Docker
-
-## 📄 License
-
-MIT License
+<p align="center">
+  <a href="https://github.com/antono4/openclaude"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/openclaude-blue?logo=github"></a>
+  <a href="https://antono4.github.io/openclaude/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-2652-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-02 12:58:49 WIB-lightgrey">
+</p>
 
 ---
-*Last updated: 2026-09-02 11:30:29 WIB*
+
+## 📖 Tentang
+
+Repository **`openclaude`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/openclaude/`](https://antono4.github.io/openclaude/).
+
+## 🗂️ Struktur Proyek
+
+```
+openclaude/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+└── web/              # openclaude — runs anywhere, uses anything  ->  https://antono4.github.io/openclaude/web/
+```
+
+## 🌐 Sub-Proyek / Demo
+
+Situs ini juga memuat beberapa sub-proyek (masing-masing punya `index.html` tersendiri):
+
+| Folder | Demo Live | Keterangan |
+|--------|-----------|-----------|
+| [`web`](./web) | [https://antono4.github.io/openclaude/web/](https://antono4.github.io/openclaude/web/) | openclaude — runs anywhere, uses anything |
+
+## 🛠️ Teknologi
+
+Berdasarkan isi repository, proyek ini menggunakan:
+
+- `HTML`
+- `CSS`
+- `JavaScript`
+- `Python`
+- `React`
+
+> Total **2652 file** terdeteksi di repository.
+
+## 🚀 Menjalankan Secara Lokal
+
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
+```
+
+## 📬 Kontak
+
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/openclaude/](https://antono4.github.io/openclaude/)
+
+## 📄 Lisensi
+
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
+
+---
+
+<sub>README ini di-generate otomatis pada **2026-09-02 12:58:49 WIB** oleh GitHub Actions .</sub>
