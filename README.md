@@ -1,2 +1,34 @@
-Last updated: 2026-09-03 23:21:47 WIB
-Last updated: 2026-09-03 23:22:28 WIB
+# @gitlawb/openclaude
+
+OpenClaude opens coding-agent workflows to any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models
+
+## 📋 Overview
+
+This repository contains **2652 files** and is built with the following technologies:
+
+Node.js, Docker
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## ✨ Features
+
+- 🐳 Docker support
+- 🔧 Environment config included
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+Node.js, Docker
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-09-04 00:19:24 WIB*
